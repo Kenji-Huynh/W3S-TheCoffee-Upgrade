@@ -26,14 +26,14 @@ document.querySelectorAll("nav ul li a").forEach((link) => {
   ];
 
   const drinkData = [
-    { img: "W3S-TheCoffee-Upgrade/assets/img/drink-1.jpg", name: "Espresso", desc: "Cà phê đậm đặc nguyên chất.", price: "$5" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/drink-2.jpg", name: "Cappuccino", desc: "Cà phê sữa bọt kem mịn màng.", price: "$6" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/drink-3.jpg", name: "Latte", desc: "Sự kết hợp hoàn hảo giữa espresso và sữa.", price: "$6" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/drink-4.jpg", name: "Mocha", desc: "Espresso, sô cô la và sữa tươi.", price: "$7" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/drink-5.jpg", name: "Matcha Latte", desc: "Trà xanh Nhật Bản pha sữa.", price: "$6" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/drink-6.jpg", name: "Iced Coffee", desc: "Cà phê sữa đá đậm đà.", price: "$5" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/drink-7.jpg", name: "Fruit Tea", desc: "Trà hoa quả tươi mát.", price: "$6" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/drink-8.jpg", name: "Smoothie", desc: "Sinh tố trái cây nguyên chất.", price: "$7" }
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/drink-1.jpg", name: "Espresso", desc: "Cà phê đậm đặc nguyên chất.", price: "$5" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/drink-2.jpg", name: "Cappuccino", desc: "Cà phê sữa bọt kem mịn màng.", price: "$6" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/drink-3.jpg", name: "Latte", desc: "Sự kết hợp hoàn hảo giữa espresso và sữa.", price: "$6" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/drink-4.jpg", name: "Mocha", desc: "Espresso, sô cô la và sữa tươi.", price: "$7" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/drink-5.jpg", name: "Matcha Latte", desc: "Trà xanh Nhật Bản pha sữa.", price: "$6" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/drink-6.jpg", name: "Iced Coffee", desc: "Cà phê sữa đá đậm đà.", price: "$5" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/drink-7.jpg", name: "Fruit Tea", desc: "Trà hoa quả tươi mát.", price: "$6" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/drink-8.jpg", name: "Smoothie", desc: "Sinh tố trái cây nguyên chất.", price: "$7" }
   ];
 
   const listContainer = document.querySelector(".list-grid");
