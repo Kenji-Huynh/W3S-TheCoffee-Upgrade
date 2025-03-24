@@ -7,14 +7,22 @@ document.querySelectorAll("nav ul li a").forEach((link) => {
       });
     });
     const foodData = [
-    { img: "W3S-TheCoffee-Upgrade/assets/img/food-1.jpg", name: "Croque Monsieur", desc: "Bánh mì nướng kẹp phô mai và thịt nguội.", price: "$12" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/food-2.jpg", name: "Quiche Lorraine", desc: "Bánh tart mặn với nhân trứng, kem tươi.", price: "$10" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/food-3.jpg", name: "Ratatouille", desc: "Rau hầm Provence: cà tím, bí ngòi.", price: "$15" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/food-4.jpg", name: "Boeuf Bourguignon", desc: "Bò hầm rượu vang đỏ Burgundy.", price: "$20" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/food-5.jpg", name: "Coq au Vin", desc: "Gà nấu rượu vang đỏ, nấm, hành tây.", price: "$18" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/food-6.jpg", name: "Tartiflette", desc: "Khoai tây nướng với phô mai Reblochon.", price: "$14" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/food-7.jpg", name: "Soupe à l'Oignon", desc: "Súp hành tây phủ phô mai tan chảy đậm đà mùi vị.", price: "$11" },
-    { img: "W3S-TheCoffee-Upgrade/assets/img/food-8.jpg", name: "Crêpes Suzette", desc: "Bánh crepe sốt cam tan chảy Grand Marnier.", price: "$9" }
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/food-1.jpg
+", name: "Croque Monsieur", desc: "Bánh mì nướng kẹp phô mai và thịt nguội.", price: "$12" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/food-2.jpg
+", name: "Quiche Lorraine", desc: "Bánh tart mặn với nhân trứng, kem tươi.", price: "$10" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/food-3.jpg
+", name: "Ratatouille", desc: "Rau hầm Provence: cà tím, bí ngòi.", price: "$15" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/food-4.jpg
+", name: "Boeuf Bourguignon", desc: "Bò hầm rượu vang đỏ Burgundy.", price: "$20" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/food-5.jpg
+", name: "Coq au Vin", desc: "Gà nấu rượu vang đỏ, nấm, hành tây.", price: "$18" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/food-6.jpg
+", name: "Tartiflette", desc: "Khoai tây nướng với phô mai Reblochon.", price: "$14" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/food-7.jpg
+", name: "Soupe à l'Oignon", desc: "Súp hành tây phủ phô mai tan chảy đậm đà mùi vị.", price: "$11" },
+    { img: "https://kenji-huynh.github.io/W3S-TheCoffee-Upgrade/assets/img/food-8.jpg
+", name: "Crêpes Suzette", desc: "Bánh crepe sốt cam tan chảy Grand Marnier.", price: "$9" }
   ];
 
   const drinkData = [
