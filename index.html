@@ -229,5 +229,23 @@ document.addEventListener('click', function(event) {
   }
 });
 
+document.querySelectorAll('#nav-list a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault(); // Ngăn load lại trang
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+
+        if (targetSection) {
+            window.scrollTo({
+                top: targetId === "home" ? 0 : targetSection.offsetTop - 50,
+                behavior: 'smooth'
+            });
+        }
+
+        // Đóng menu nếu đang ở mobile
+        document.getElementById('nav-list').classList.remove('active');
+    });
+});
+
   </script>
 </html>
